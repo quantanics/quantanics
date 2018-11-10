@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<body style="background-size: 1000px;background-size: 1900px 1000px;;background-repeat: no-repeat;"  background="1.jpg">
+<p  style="text-align:left;"><span style="  margin-top: 0px;font-size:100%;color:#FFBF00;">quantanics
+<head>
+<title>Quantanics.in</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.relative {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+p {
+  text-align: center;
+  font-size: 100px;
+  color:white;
+
+}
+</style>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+var countDownDate = new Date("nov 24, 2018 15:37:25").getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+<p  style="text-align:center;"><span style="font-size:40%;color:black;">Launching Soooonnnn.........
+<div class="relative">
+<p><span style="font-size:50%;color:black;">Made with <span style="font-size:150%;color:red;">&hearts;<span style="font-size:50%;color:black;"> in INDIA
+</div>
+</body>
+</html>
+
